@@ -72,6 +72,10 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale();
+}
+
 /* esercizio 7 */
 
 
