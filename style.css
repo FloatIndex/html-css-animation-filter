@@ -128,6 +128,16 @@
     font-size: 60px;
 }
 
+.ex-11-icon:hover {
+    animation: spin 2s linear 1;
+}
+
+@keyframes spin {
+    90% {
+        transform: rotate(270deg);
+    }
+}
+
 /* esercizio 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
