@@ -77,7 +77,13 @@
 }
 
 /* esercizio 7 */
+.ex-7-img {
+    transition: filter 2s;
+}
 
+.ex-7-img:hover {
+    filter: sepia(0.7) grayscale(0.3);
+}
 
 /* esercizio 8 */
 
